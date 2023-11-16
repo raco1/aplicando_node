@@ -1,10 +1,10 @@
-const knex = require("knex")
+const knex = require("../database/knex")
 const AppError = require("../utils/AppError")
 const DiskStorage = require("../provider/DiskStorage")
 
 class UserAvatarController {
     async update(request, response){
-        const user_id = request.user.user_id
+        const user_id = request.user.id
         const avatarFileName = request.file.filename
         const diskStorage = new DiskStorage();
 
