@@ -27,19 +27,19 @@ Além disso, utilizamos o Insomnia e o Beekeeper para trabalharmos com as inform
 - Insomnia;
 - Beekeeper Studio.
 ## 🛠 Dependências
-      - Bcryptjs: ^2.4.3
-      - Express: ^4.18.2
+      - Bcryptjs: ^2.4.3,
+      - Express: ^4.18.2,
       - dotenv: ^16.3.1,
-      - Express-async-errors: ^3.1.1
-      - Knex: ^3.0.1
-      - Sqlite: ^5.0.1
-      - Sqlite3: ^5.1.6
+      - Express-async-errors: ^3.1.1,
+      - Knex: ^3.0.1,
+      - Sqlite: ^5.0.1,
+      - Sqlite3: ^5.1.6,
       - Multer: ^1.4.5-lts.1,
       - jsonwebtoken: ^9.0.2,
       - cors: ^2.8.5,
  ## 🛠 DevDependencies
  
-      - Nodemon: ^3.0.1
+      - Nodemon: ^3.0.1,
 ## 👋 Contato
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-coelho-reis-873181204/)
 
