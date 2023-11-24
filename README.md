@@ -2,7 +2,7 @@
 
 💻 Sobre o desafio
 
-Criar uma aplicação em Node.js onde o usuário cadastra um filme, preenche com algumas informações (nome, descrição, nota) e cria tags relacionadas a ele.
+Criar uma aplicação em Node.js onde o usuário cadastra um filme, preenche com algumas informações (nome, descrição, nota) e cria tags relacionadas a ele. Você pode acompanhar o desenvolvimento do front-end por aqui: https://github.com/raco1/rocket-movies-front
 
 
 ## ✍️ Aprendizados
@@ -17,6 +17,11 @@ Além disso, utilizamos o Insomnia e o Beekeeper para trabalharmos com as inform
 ## 🖥 Tecnologias
 
 - JavaScript (Nodejs);
+- Express;
+- Express-async-errors;
+- Bcrypts;
+- Knex;
+- SQLite;
 - Insomnia;
 - Beekeeper Studio;
 ## 🛠 Dependências
