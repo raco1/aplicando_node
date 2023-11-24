@@ -24,6 +24,7 @@ Além disso, utilizamos o Insomnia e o Beekeeper para trabalharmos com as inform
 - SQLite;
 - Multer;
 - DotEnv;
+- PM2;
 - Insomnia;
 - Beekeeper Studio.
 ## 🛠 Dependências
@@ -37,6 +38,7 @@ Além disso, utilizamos o Insomnia e o Beekeeper para trabalharmos com as inform
       - Multer: ^1.4.5-lts.1,
       - jsonwebtoken: ^9.0.2,
       - cors: ^2.8.5,
+      - pm2: ^5.3.0,
  ## 🛠 DevDependencies
  
       - Nodemon: ^3.0.1,
