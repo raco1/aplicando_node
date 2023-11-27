@@ -1,6 +1,6 @@
 # 🚀 Aplicação em Node (Desafio do Stage 08 - Backend, da Trila Explorer da Rocketseat)
 
-💻 Sobre o desafio
+# 💻 Sobre o desafio
 
 Criar uma aplicação em Node.js onde o usuário cadastra um filme, preenche com algumas informações (nome, descrição, nota) e cria tags relacionadas a ele. Você pode acompanhar o desenvolvimento do front-end por aqui: https://github.com/raco1/rocket-movies-front
 
@@ -42,6 +42,10 @@ Além disso, utilizamos o Insomnia e o Beekeeper para trabalharmos com as inform
  ## 🛠 DevDependencies
  
       - Nodemon: ^3.0.1,
+
+## 📝 Licença
+[![NPM](https://img.shields.io/github/license/raco1/rocket-movies-api)](https://github.com/raco1/rocket-movies-api/blob/main/LICENSE)
+
 ## 👋 Contato
 
 <a href="https://www.linkedin.com/in/rafael-coelho-reis-873181204/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
