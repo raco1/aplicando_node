@@ -1,4 +1,5 @@
 require("express-async-errors");
+const cookieParser = require('cookie-parser')
 require('dotenv').config()
 const database = require("./database/sqlite");
 const cors = require("cors");
@@ -11,13 +12,13 @@ const app = express();
 const uploadConfig = require("./configs/upload")
 
 app.use(express.json());
-
-app.use(cors());
-
+app.use(cookieParser())
+app.use(cors({
+    origin: ['http://localhost:5173', 'https://rocketmovies27.netlify.app'],
+    credentials: true,
+}));
 app.use(routes);
-
 database();
-
 app.use("/files", express.static(uploadConfig.UPLOADS_FOLDER))
 
 app.use((error, request, response, next) => {
